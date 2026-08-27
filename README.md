@@ -14,6 +14,7 @@ I build practical, production-minded systems around **LLMs, retrieval (RAG), eva
 | **[AI-eval](https://github.com/weitingyen168/AI-eval)** | RAG Q&A service with a built-in **evaluation harness** (LLM-as-judge faithfulness/relevance + hit_rate@k / MRR@k) and hybrid dense+BM25 retrieval fused with RRF. | Python · FastAPI · Chroma · Streamlit |
 | **[rag-mcp-server](https://github.com/weitingyen168/rag-mcp-server)** | RAG document-search exposed as a **Model Context Protocol** server, with pluggable SQLite FTS5 / Chroma backends and incremental ingestion. | Python · MCP · SQLite FTS5 · Chroma |
 | **[llm-tool-agent](https://github.com/weitingyen168/llm-tool-agent)** | Provider-agnostic tool-using LLM agent with a **human-in-the-loop approval gate** separating read vs. side-effecting tools. | Python · OpenAI-compatible |
+| **[usage-pulse](https://github.com/weitingyen168/usage-pulse)** | Zero-dependency CLI that turns a messy product-usage CSV into a weekly health report: data-quality audit, session-weighted metrics, and change detection. | Python (stdlib only) |
 
 ---
 
