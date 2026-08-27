@@ -10,8 +10,10 @@ I build practical, production-minded systems around **LLMs, retrieval (RAG), eva
 
 | Project | What it does | Stack |
 | --- | --- | --- |
-| **[earthquake-elt](https://github.com/weitingyen168/earthquake-elt)** | End-to-end ELT pipeline: live USGS feeds → DuckDB → dbt (staging/marts) → orchestrated with Prefect, with data-quality tests and CI. | Python · dbt · DuckDB · Prefect |
+| **[churn-prediction](https://github.com/weitingyen168/churn-prediction)** | Supervised ML churn model: EDA notebook, scikit-learn pipeline, and honest evaluation (ROC/PR AUC vs baseline, feature importance) on a synthetic SaaS dataset. | Python · scikit-learn · pandas · matplotlib |
+| **[ab-test-analysis](https://github.com/weitingyen168/ab-test-analysis)** | End-to-end A/B test analysis: experiment design, SRM check, two-proportion z-test, confidence intervals, effect size, and power/MDE analysis. | Python · SciPy · pandas · statistics |
 | **[AI-eval](https://github.com/weitingyen168/AI-eval)** | RAG Q&A service with a built-in **evaluation harness** (LLM-as-judge faithfulness/relevance + hit_rate@k / MRR@k) and hybrid dense+BM25 retrieval fused with RRF. | Python · FastAPI · Chroma · Streamlit |
+| **[earthquake-elt](https://github.com/weitingyen168/earthquake-elt)** | End-to-end ELT pipeline: live USGS feeds → DuckDB → dbt (staging/marts) → orchestrated with Prefect, with data-quality tests and CI. | Python · dbt · DuckDB · Prefect |
 | **[rag-mcp-server](https://github.com/weitingyen168/rag-mcp-server)** | RAG document-search exposed as a **Model Context Protocol** server, with pluggable SQLite FTS5 / Chroma backends and incremental ingestion. | Python · MCP · SQLite FTS5 · Chroma |
 | **[llm-tool-agent](https://github.com/weitingyen168/llm-tool-agent)** | Provider-agnostic tool-using LLM agent with a **human-in-the-loop approval gate** separating read vs. side-effecting tools. | Python · OpenAI-compatible |
 | **[usage-pulse](https://github.com/weitingyen168/usage-pulse)** | Zero-dependency CLI that turns a messy product-usage CSV into a weekly health report: data-quality audit, session-weighted metrics, and change detection. | Python (stdlib only) |
@@ -21,8 +23,9 @@ I build practical, production-minded systems around **LLMs, retrieval (RAG), eva
 ## 🛠️ Tech
 
 **Languages:** Python, SQL, TypeScript
-**Data:** dbt, DuckDB, Prefect, Pandas
-**ML / LLM:** RAG, retrieval evaluation, MCP, FastAPI, Chroma
+**Data & analysis:** pandas, dbt, DuckDB, Prefect, matplotlib
+**ML & stats:** scikit-learn, experimentation / A/B testing, SciPy, model evaluation
+**LLM:** RAG, retrieval evaluation, MCP, FastAPI, Chroma
 **Tooling:** Docker, GitHub Actions (CI), pytest
 
 ---
