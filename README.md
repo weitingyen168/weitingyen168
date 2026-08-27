@@ -30,5 +30,5 @@ I build practical, production-minded systems around **LLMs, retrieval (RAG), eva
 ## 📫 Contact
 
 - GitHub: [@weitingyen168](https://github.com/weitingyen168)
-- Email: <!-- add your email -->
-- LinkedIn: <!-- add your LinkedIn URL -->
+- Email: [weitingyen168@gmail.com](mailto:weitingyen168@gmail.com)
+- LinkedIn: [wei-yen](https://linkedin.com/in/wei-yen-00480538)
